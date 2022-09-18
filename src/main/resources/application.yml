@@ -1,0 +1,18 @@
+jwt:
+  secret: mySecret123
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: krachkr101@gmail.com
+    password: wkvbxluejluhzrmz
+
+    properties:
+      mail:
+        smtp:
+          ssl:
+            trust: "*"
+          auth: true
+          starttls:
+            enable: true
